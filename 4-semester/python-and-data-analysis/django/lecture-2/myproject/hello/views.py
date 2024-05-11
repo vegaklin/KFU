@@ -10,7 +10,7 @@ def m403(request):
     return HttpResponseForbidden("<h2>Forbidden</h2>")
 
 def m404(request):
-    return HttpResponseNotFound("<h2>Not Found&lt</h2>")
+    return HttpResponseNotFound("<h2>Not Found</h2>")
 
 def m405(request):
     return HttpResponseNotAllowed("<h2>Method is not allowed</h2>")
